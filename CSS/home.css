@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+/*========== color ==========*/
+:root {
+    --text-black: #313131;
+    --dark-blue: #434952;
+    --blue: #809ca4;
+    --light-blue: #c3cace;
+    --white: #f4f3ef;
+
+    --sub-light-baige: #e5dfd8;
+    --sub-baige: #d9ccc1;
+}
+
+
+
+
+/*========== section 1 ==========*/
+.section1 {
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(/IMG/water.jpg);
+}
+.section1 img {
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section1 > h1 {
+    color: #fff;
+    padding-top: 30vh;
+    padding-left: 20vw;
+}
+.section1 > h3{
+    color:rgb(207, 207, 207);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-left: 20vw;
+}
+
+
+
+
+.section1 .button {
+    position: relative;
+    width: 440px;
+    margin-left: 180px;
+}
+.section1 .button a {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    color: white;
+    padding: 7px 14px;
+    font-weight: lighter;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0.2em;
+
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+.section1 .button a:hover {
+    background-color: white;
+    color: var(--text-black);
+}
+
+
+
+
+
+/* 
+
+.section3 footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #777777a8;
+    bottom: 0;
+}
+.section3 footer .footer-text {
+    position: absolute;
+    color: rgb(209, 209, 209);
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.section3 footer .footer-logo {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 100px;
+} */

@@ -1,0 +1,115 @@
+* {
+    list-style-type: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+
+/*========== color ==========*/
+:root {
+    --text-black: #313131;
+
+    --dark-blue: #434952;
+    --blue: #809ca4;
+    --light-blue: #c3cace;
+    --white: #f4f3ef;
+
+    --sub-light-baige: #e5dfd8;
+    --sub-baige: #d9ccc1;
+}
+
+
+
+/*====== title ======*/
+.main .main-title {
+    max-height: 50%;
+    height: 250px;
+    width: 100vw;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(/IMG/water.jpg);
+    /* background-image: url('../IMG/금강물산.png'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.main-title h1,
+.main-title h3 {
+    color: white;
+    text-align: center;
+}
+.main-title h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+.main-title > hr {
+    width: 120px;
+    margin: 10px auto;
+    border: 0;
+    background: #ccc;
+}
+.main-title h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+
+
+/*====== contents ======*/
+.main-contents {
+    max-width: 1100px;
+    width: 80%;
+    height: auto;
+    /* background-color: #ccc; */
+    margin: 40px auto 0px auto;
+}
+
+.main > hr {
+    width: 100vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 0;
+    height: 2px;
+    background-color: var(--text-black);
+}
+
+
+
+/*====== footer ======*/
+
+footer{
+    max-width: 1100px;
+    width: 80%;
+    /* display: flex; */
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.footer > div > img {
+    margin: 20px 0;
+}
+.footer div {
+    font-size: 10px;
+    margin-top: 10px;
+}
+footer > div:last-child {
+    padding-bottom: 40px;
+}
+
+/* footer > div:first-child{
+    margin: auto;
+    flex: 3;
+    text-align: center;
+    color: fff;
+}
+
+footer > div:last-child{
+    text-align: left;
+    flex: 9;
+    color: rgb(59, 59, 59);
+} */

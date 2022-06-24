@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.main-contents div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contents-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+
+
+
+.img {
+    width: 30%;
+    background-color: antiquewhite;
+}
+
+.main-contents > hr {
+    margin-bottom: 20px;
+}
+
+
+.contents {
+    display: inline-block;
+}
+
+.contents > div {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    padding: auto;
+    margin: auto;
+}
+
+.contents > div > p {
+    display: flex;
+    font-size:0.8rem;
+    vertical-align:middle;
+    align-items:center;
+    width: 80%;
+}
+
+
+.contents:last-child {
+    margin-top: -1rem;
+    margin-bottom: 10rem;
+}
