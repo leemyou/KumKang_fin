@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
-    transition: all 0.4s ease;;
+    transition: all 0.4s ease;
 
 }
 
@@ -20,6 +20,7 @@
 
 body{
     height: 100vh;
+    width: 100vw;
 }
 
 nav{
@@ -43,22 +44,20 @@ nav{
 
 /*===== Footer =====*/
 footer {
-    background-color:rgb(49, 49, 49);
-    position: relative;
-    bottom: 0;
+    background-color:rgb(63, 63, 63);
     width: 100vw;
     text-align:center;
     font-weight: lighter;
 }
 
-.footer_text{
-    height: 200px;
+.footer_text > p{
+    /* height: 200px; */
     color: #fff;
+    width: 100vw;
 }
 
 .footer_text > p{
     font-size:0.9rem;
-    
     /* padding: 10px 0 0 0; */
 }
 .footer_text :last-child{
